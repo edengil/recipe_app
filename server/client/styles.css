@@ -1,0 +1,36 @@
+/* .form-control { width:45% !important; } */
+#srch-term1 { margin-right:5px }
+.btn { margin-left:-35px !important; }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none !important;
+}
+
+.search-bar {
+  display: grid;
+  grid-template-columns: 2fr 2fr 20fr 1fr;
+  margin: 30px;
+}
+
+input,
+button {
+  padding: 10px;
+}
+
+.recipes-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+.recipe-img {
+  width: 100px;
+  cursor: pointer;
+}
